@@ -13,7 +13,7 @@ import HostVanDetail from "./pages/Host/HostVanDetail"
 import HostVanInfo from "./pages/Host/HostVanInfo"
 import HostVanPricing from "./pages/Host/HostVanPricing"
 import HostVanPhotos from "./pages/Host/HostVanPhotos"
-import AuthRequired from "./pages/AuthRequired"
+import AuthRequired from "./components/AuthRequired"
 import NotFound from "./pages/NotFound"
 import './App.css'
 import "./server"
