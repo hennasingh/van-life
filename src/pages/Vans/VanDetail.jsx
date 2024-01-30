@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams, Link, useLocation } from 'react-router-dom'
 
-
 export default function VanDetail() {
 
     const params = useParams()
