@@ -18,6 +18,7 @@ export default function Login() {
             .then(userData => {
                 console.log(userData.username)
                 setError(null)
+                localStorage.setItem("loggedin", true)
                 navigate("/host")
             })
             .catch(err => setError(err))
